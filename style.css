@@ -1,0 +1,146 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    min-height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding:14px ;
+    border-radius:10px ;
+    box-shadow: -1px 1px 5px 1px darkgrey;
+}
+img{
+    height: 600px;
+}
+
+input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  width: 600px;
+    margin: auto;
+    padding-left: 10px;
+}
+.form-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+.form-data{
+    width: 60%;
+}
+.form-data.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+    margin: 12px;
+}
+.form-data.icon.fm{
+    justify-content: flex-start;
+    margin: 0;
+    width: 63%;
+}
+input{    display: block;
+    width: 70vw;
+    color: #495057;
+    padding: 0.5em;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 10px;
+    margin: 12px;
+}
+button{
+    padding: 16px 18px;
+    margin:16px 0;
+    font-size: 14px;
+}
+.fas{
+    text-align: center;
+    font-size: 36px;
+    padding: 8px;
+width: 40px;
+height:40px ;
+border-radius: 50%;
+border: solid 1px rgba(51, 128, 51, 0.3);
+background-color: rgb(102, 207, 102);
+color: white;
+}
+.fas.fa-venus{
+    background-color: white;
+    color: rgba(153, 153, 153, 0.5);
+    border: none;
+}
+.btn-cont{
+    display: flex;
+}
+.btn-s{
+    box-shadow: -1px 1px 5px 1px darkgrey;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(102, 207, 102);
+}
+.btn-c{
+    box-shadow: -1px 1px 5px 1px darkgrey;
+    border: none;
+    border-radius: 5px;
+    color: rgba(153, 153, 153, 1);
+    
+}
+.B{
+    color: brown;
+}
+.S{
+    color: silver;
+}
+.G{
+    color: gold;
+}
+    @media (max-width:968px) {
+    img{
+        display: none;
+    }    
+   } 
+    @media (max-width:786px) {
+    body{
+        font-size: 14px;
+    }    
+    .main{
+        width: 90%;
+    }
+    .form-control{
+    width: 90%;
+    padding: 0;
+    }
+    .form-block{
+        flex-direction: column;
+    }
+    .form-data.icon.fm {
+        justify-content: center;
+        margin: 0;
+        width: 63%;
+    }
+   } 
